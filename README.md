@@ -1,5 +1,4 @@
-# PEAS
-Predicting Eye-tracking Assisted Web Page Segmentation (PEAS)
+# Predicting Eye-tracking Assisted Web Page Segmentation (PEAS)
 
 The PEAS study is one that aims to predict eye-tracking assisted web page segmentation using supervised ML models.
 The idea is that we will create and train an ML model with a set of features, and a segmentation ground truth that was generated basde on eye-tracking data that was collected in task based experiments performed on a set of web pages.
