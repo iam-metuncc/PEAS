@@ -386,7 +386,7 @@ x = trainingSet[trainingColumns]
 testingSet = testingSet[trainingColumns]
 y = trainingLabels
 
-perceptronModel = Perceptron(random_state=42)
+perceptronModel = Perceptron(random_state=0)
 perceptronModel.fit(x,y)
 
 predictions = perceptronModel.predict(testingSet[trainingColumns])
